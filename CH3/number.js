@@ -72,3 +72,6 @@ name = undefined;
 console.log(name);
 
 console.log("---------------------------------------------");
+
+var msg = 100;
+var msg = { name: "불꽃남자" };
