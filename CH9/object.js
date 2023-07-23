@@ -82,6 +82,31 @@ for(let info in user){
     console.log(`${info} : ${user[info]}`);
 }
 
-console.log(user.id);
-console.log(user.pw);
+let plus = (a,b)=>a + b;
+
+let result = plus(10,20);
+console.log('두 수의 합 : ' + result);
+
+let plus1 = a => a+1;
+
+let result1 = plus1(10);
+console.log('값의 1증가 : ' + result1);
+
+let plus2 = ()=> "플러스";
+
+let result2 = plus2();
+console.log('A' + result2);
+
+const color = ['red','green','blue'];
+
+let r = color[0];
+let g = color[1];
+let b = color[2];
+
+console.log(r);
+console.log(g);
+console.log(b)
+
+
+
 
